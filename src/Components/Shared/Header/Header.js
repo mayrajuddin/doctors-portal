@@ -5,11 +5,11 @@ const Header = () => {
 
     const menuItems = <>
         <li><Link to="/" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>home</Link></li>
-        <li><Link to="/" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>about</Link></li>
-        <li><Link to="/" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>appointment</Link></li>
-        <li><Link to="/" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>reviews</Link></li>
-        <li><Link to="/" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>contact us</Link></li>
-        <li><Link to="/" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>login</Link></li>
+        <li><Link to="/about" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>about</Link></li>
+        <li><Link to="/appointment" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>appointment</Link></li>
+        <li><Link to="/reviews" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>reviews</Link></li>
+        <li><Link to="/contact" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>contact us</Link></li>
+        <li><Link to="/login" className='capitalize text-black hover:bg-neutral hover:text-white rounded-md'>login</Link></li>
     </>
     return (
         <div className="navbar flex justify-between">
