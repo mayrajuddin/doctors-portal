@@ -1,5 +1,5 @@
 import React from 'react';
-import tretment from '../../../../assets/images/treatment.png'
+import tretment from '../../../assets/images/treatment.png'
 const DentalCare = () => {
     return (
         <section className='py-6'>
